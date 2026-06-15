@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Code, Brain, Globe, Cpu, Lightbulb, TrendingUp, Users } from "lucide-react";
+import { Code, Brain, Globe, Cpu, Lightbulb, TrendingUp, Users, MapPin } from "lucide-react";
 import { Link } from "wouter";
 
 const fadeInUp = {
@@ -36,8 +36,8 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-8"
           >
-            <Lightbulb className="w-4 h-4 text-primary" />
-            <span className="text-sm font-medium">Innovation Lab</span>
+            <MapPin className="w-4 h-4 text-primary" />
+            <span className="text-sm font-medium">INNCA Technologies · Lahore, Pakistan</span>
           </motion.div>
 
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8 leading-tight">

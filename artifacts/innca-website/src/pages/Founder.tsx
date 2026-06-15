@@ -1,10 +1,31 @@
 import { motion } from "framer-motion";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { useState } from "react";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
 };
+
+const FOUNDER_IMG = "https://lh3.googleusercontent.com/d/1vKw81k19cLKaXE2iwLKMtW0xOa2yisn3";
+
+function FounderAvatar() {
+  const [error, setError] = useState(false);
+  return (
+    <div className="w-48 h-48 md:w-64 md:h-64 rounded-full border-4 border-background shadow-2xl relative z-10 overflow-hidden bg-gradient-to-br from-primary to-accent flex items-center justify-center">
+      {!error ? (
+        <img
+          src={FOUNDER_IMG}
+          alt="Malik Muhammad Shehram"
+          className="w-full h-full object-cover"
+          referrerPolicy="no-referrer"
+          onError={() => setError(true)}
+        />
+      ) : (
+        <span className="text-4xl font-bold text-primary-foreground">MS</span>
+      )}
+    </div>
+  );
+}
 
 export default function Founder() {
   return (
@@ -36,10 +57,7 @@ export default function Founder() {
           >
             <div className="shrink-0 relative">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary to-accent blur-xl opacity-30" />
-              <Avatar className="w-48 h-48 md:w-64 md:h-64 border-4 border-background shadow-2xl relative z-10">
-                <AvatarImage src="https://drive.google.com/uc?export=view&id=1vKw81k19cLKaXE2iwLKMtW0xOa2yisn3" alt="Malik Muhammad Shehram" className="object-cover" />
-                <AvatarFallback className="text-4xl bg-gradient-to-br from-primary to-accent font-bold">MS</AvatarFallback>
-              </Avatar>
+              <FounderAvatar />
             </div>
 
             <div className="flex-1 text-center md:text-left">

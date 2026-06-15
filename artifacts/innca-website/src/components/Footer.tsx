@@ -31,13 +31,13 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-6">Connect</h4>
             <div className="flex gap-4">
-              <a href="#" className="p-2 bg-white/5 rounded-full hover:bg-primary/20 hover:text-primary transition-all">
+              <a href="https://www.linkedin.com/in/m-shehram-6a706639b/" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/5 rounded-full hover:bg-primary/20 hover:text-primary transition-all">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="#" className="p-2 bg-white/5 rounded-full hover:bg-primary/20 hover:text-primary transition-all">
+              <a href="https://wa.me/+923127641850" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/5 rounded-full hover:bg-primary/20 hover:text-primary transition-all">
                 <SiWhatsapp className="w-5 h-5" />
               </a>
-              <a href="#" className="p-2 bg-white/5 rounded-full hover:bg-primary/20 hover:text-primary transition-all">
+              <a href="mailto:innca.tech@gmail.com" className="p-2 bg-white/5 rounded-full hover:bg-primary/20 hover:text-primary transition-all">
                 <Mail className="w-5 h-5" />
               </a>
             </div>

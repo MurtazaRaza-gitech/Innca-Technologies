@@ -182,7 +182,7 @@ export default function Contact() {
               className="space-y-8"
             >
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <a href="#" className="flex items-center gap-4 p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-all group">
+                <a href="https://www.linkedin.com/in/m-shehram-6a706639b/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-all group">
                   <div className="w-12 h-12 rounded-full bg-[#0A66C2]/20 flex items-center justify-center group-hover:scale-110 transition-transform">
                     <Linkedin className="w-6 h-6 text-[#0A66C2]" />
                   </div>
@@ -192,7 +192,7 @@ export default function Contact() {
                   </div>
                 </a>
 
-                <a href="#" className="flex items-center gap-4 p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-[#25D366]/50 transition-all group">
+                <a href="https://wa.me/+923127641850" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-[#25D366]/50 transition-all group">
                   <div className="w-12 h-12 rounded-full bg-[#25D366]/20 flex items-center justify-center group-hover:scale-110 transition-transform">
                     <SiWhatsapp className="w-6 h-6 text-[#25D366]" />
                   </div>
@@ -202,13 +202,13 @@ export default function Contact() {
                   </div>
                 </a>
 
-                <a href="mailto:contact@inncatech.com" className="flex items-center gap-4 p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-all group sm:col-span-2">
+                <a href="mailto:innca.tech@gmail.com" className="flex items-center gap-4 p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-all group sm:col-span-2">
                   <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
                     <Mail className="w-6 h-6 text-primary" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Email</h4>
-                    <p className="text-muted-foreground text-sm">contact@innca.com</p>
+                    <p className="text-muted-foreground text-sm">innca.tech@gmail.com</p>
                   </div>
                 </a>
               </div>

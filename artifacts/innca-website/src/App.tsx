@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { AuroraBackground } from "@/components/AuroraBackground";
+import { ScrollToTopButton } from "@/components/ScrollToTopButton";
 import Home from "@/pages/Home";
 import OurStory from "@/pages/OurStory";
 import Vision from "@/pages/Vision";
@@ -60,6 +61,7 @@ function App() {
               </main>
               <Footer />
             </div>
+            <ScrollToTopButton />
           </WouterRouter>
           <Toaster />
         </TooltipProvider>
