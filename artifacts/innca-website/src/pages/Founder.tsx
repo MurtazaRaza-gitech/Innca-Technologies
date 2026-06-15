@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { AuroraBackground } from "@/components/AuroraBackground";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const fadeInUp = {
@@ -15,11 +14,6 @@ export default function Founder() {
       exit={{ opacity: 0 }}
       className="flex flex-col min-h-screen w-full relative"
     >
-      <div className="absolute inset-0 h-[600px] overflow-hidden -z-10">
-        <AuroraBackground />
-        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background to-transparent" />
-      </div>
-
       {/* Hero */}
       <section className="pt-40 pb-20 px-6 text-center">
         <motion.h1 

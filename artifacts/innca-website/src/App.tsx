@@ -8,6 +8,7 @@ import { useEffect } from "react";
 
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { AuroraBackground } from "@/components/AuroraBackground";
 import Home from "@/pages/Home";
 import OurStory from "@/pages/OurStory";
 import Vision from "@/pages/Vision";
@@ -52,6 +53,7 @@ function App() {
           <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
             <ScrollToTop />
             <div className="min-h-screen flex flex-col w-full bg-background text-foreground overflow-x-hidden relative">
+              <AuroraBackground />
               <Navbar />
               <main className="flex-1 mt-20">
                 <Router />

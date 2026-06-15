@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { AuroraBackground } from "@/components/AuroraBackground";
 import { Code, Brain, Globe, Cpu, Lightbulb, TrendingUp, Users } from "lucide-react";
 import { Link } from "wouter";
 
@@ -28,8 +27,6 @@ export default function Home() {
       exit={{ opacity: 0 }}
       className="flex flex-col min-h-screen w-full relative"
     >
-      <AuroraBackground />
-      
       {/* Hero Section */}
       <section className="relative min-h-[calc(100vh-5rem)] flex items-center justify-center px-6 pt-20 pb-32">
         <div className="container max-w-5xl mx-auto text-center z-10 relative">
