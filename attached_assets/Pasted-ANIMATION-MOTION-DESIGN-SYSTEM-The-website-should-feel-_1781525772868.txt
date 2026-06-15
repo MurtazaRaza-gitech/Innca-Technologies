@@ -1,0 +1,288 @@
+ANIMATION & MOTION DESIGN SYSTEM
+
+The website should feel premium, futuristic, and highly polished.
+
+Use animation quality similar to modern products such as Stripe, Linear, Vercel, Arc Browser, and premium fintech platforms.
+
+The entire website should feel alive without becoming distracting.
+
+PAGE TRANSITIONS
+
+Implement smooth route transitions between all pages.
+
+Requirements:
+
+- Fade transition
+- Blur transition
+- Scale transition
+- Smooth opacity interpolation
+- Duration: 0.5s to 0.8s
+- Framer Motion AnimatePresence
+
+Page Enter:
+
+opacity: 0 → 1
+y: 20px → 0
+blur: 10px → 0
+
+Page Exit:
+
+opacity: 1 → 0
+y: 0 → -20px
+blur: 0 → 10px
+
+The transition should feel elegant and premium.
+
+Do not use harsh movements.
+
+HERO SECTION ANIMATION
+
+The hero section should be the visual centerpiece.
+
+Create animated vertical aurora light beams similar to the reference design.
+
+Effects:
+
+- Floating cyan light columns
+- Blue glow gradients
+- Vertical light streaks
+- Large blurred background glows
+- Animated gradient movement
+
+Light beams should slowly move vertically and change opacity.
+
+Animation duration:
+
+8s to 15s infinite loop
+
+BACKGROUND ORBS
+
+Add multiple blurred gradient orbs.
+
+Colors:
+
+#2563EB
+#22D3EE
+#7C3AED
+
+Effects:
+
+- Slow floating movement
+- Slight scaling
+- Opacity breathing
+- Mouse-responsive movement
+
+Duration:
+
+12s to 20s infinite
+
+SCROLL REVEAL SYSTEM
+
+Every section should animate when entering viewport.
+
+Animation:
+
+opacity: 0 → 1
+y: 50px → 0
+
+Duration:
+
+0.6s to 0.9s
+
+Use staggered animation for children.
+
+Delay:
+
+0.1s between items
+
+CARDS
+
+Cards should feel elevated.
+
+Hover Effects:
+
+translateY(-8px)
+
+scale(1.02)
+
+soft glow increase
+
+border glow increase
+
+shadow expansion
+
+Transition:
+
+300ms
+
+FEATURE CARDS
+
+When hovered:
+
+- Glow expands
+- Border becomes brighter
+- Gradient overlay appears
+- Content shifts upward slightly
+
+Buttons should remain stable.
+
+MAGNETIC BUTTONS
+
+Primary CTA buttons should have magnetic interaction.
+
+Mouse approaches button:
+
+Button subtly follows cursor.
+
+Movement:
+
+5px to 10px maximum
+
+Use spring animations.
+
+BUTTON EFFECTS
+
+Hover:
+
+- Glow increase
+- Scale 1.00 → 1.05
+- Slight shadow bloom
+
+Active:
+
+Scale 0.98
+
+BACKGROUND GRID
+
+Create subtle futuristic grid.
+
+Opacity:
+
+3% to 5%
+
+Animated slowly.
+
+Should add depth without distraction.
+
+PARALLAX EFFECT
+
+Hero content:
+
+Speed 1.0
+
+Background glow:
+
+Speed 0.3
+
+Floating elements:
+
+Speed 0.5
+
+Cards:
+
+Speed 0.7
+
+Mouse movement should create subtle depth.
+
+Never exceed 10px movement.
+
+TYPOGRAPHY ANIMATION
+
+Hero title:
+
+Reveal line-by-line.
+
+Each line:
+
+opacity: 0 → 1
+
+y: 30px → 0
+
+Stagger:
+
+0.15s
+
+Hero subtitle:
+
+Fade in after title.
+
+CTA buttons:
+
+Appear last.
+
+LOADING EXPERIENCE
+
+Create premium loading screen.
+
+Show:
+
+INNCA logo
+
+Animated gradient glow
+
+Progress animation
+
+Duration:
+
+1 to 2 seconds
+
+Then smoothly reveal page.
+
+NAVBAR
+
+Navbar should:
+
+- Blur background on scroll
+- Become slightly smaller after scrolling
+- Smooth color transitions
+- Active page indicator animation
+
+FOUNDER IMAGE
+
+Apply:
+
+- Floating effect
+- Subtle glow
+- Parallax movement
+- Gradient border animation
+
+Never use aggressive motion.
+
+ALIGNMENT SYSTEM
+
+Use strict spacing.
+
+Container Width:
+
+1440px max
+
+Content Width:
+
+1200px max
+
+Section Padding:
+
+120px desktop
+80px tablet
+64px mobile
+
+Vertical Rhythm:
+
+8px spacing system
+
+All sections should align perfectly on a common grid.
+
+Maintain visual consistency across every page.
+
+DESIGN PHILOSOPHY
+
+The website should feel like:
+
+- Premium technology startup
+- Venture-backed AI company
+- Modern fintech product
+- Future-focused innovation company
+
+Focus on elegance, depth, motion, and visual hierarchy rather than excessive animations.
+
+Animations should support the content and create a luxury user experience.
