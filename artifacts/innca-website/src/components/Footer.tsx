@@ -37,7 +37,7 @@ export function Footer() {
               <a href="https://wa.me/+923127641850" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/5 rounded-full hover:bg-primary/20 hover:text-primary transition-all">
                 <SiWhatsapp className="w-5 h-5" />
               </a>
-              <a href="mailto:innca.tech@gmail.com" className="p-2 bg-white/5 rounded-full hover:bg-primary/20 hover:text-primary transition-all">
+              <a href="http://mail.google.com/mail/u/0/?fs=1&to=innca.tech@gmail.com&tf=cm" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/5 rounded-full hover:bg-primary/20 hover:text-primary transition-all">
                 <Mail className="w-5 h-5" />
               </a>
             </div>

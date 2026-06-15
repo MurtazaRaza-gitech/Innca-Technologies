@@ -202,7 +202,7 @@ export default function Contact() {
                   </div>
                 </a>
 
-                <a href="mailto:innca.tech@gmail.com" className="flex items-center gap-4 p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-all group sm:col-span-2">
+                <a href="http://mail.google.com/mail/u/0/?fs=1&to=innca.tech@gmail.com&tf=cm" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-all group sm:col-span-2">
                   <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center group-hover:scale-110 transition-transform">
                     <Mail className="w-6 h-6 text-primary" />
                   </div>
