@@ -1,8 +1,12 @@
 {
+  "buildCommand": "pnpm --filter @workspace/innca-website run build",
+  "outputDirectory": "artifacts/innca-website/dist/public",
+  "installCommand": "pnpm install",
+  "framework": null,
   "rewrites": [
-    {
-      "source": "/((?!assets|favicon).*)",
-      "destination": "/index.html"
-    }
-  ]
+    { "source": "/((?!assets|favicon).*)", "destination": "/index.html" }
+  ],
+  "env": {
+    "BASE_PATH": "/"
+  }
 }
