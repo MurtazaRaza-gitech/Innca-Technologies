@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { SiWhatsapp } from "react-icons/si";
-import { Mail, CheckCircle2, Linkedin } from "lucide-react";
+import { Mail, Linkedin } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
@@ -47,7 +47,6 @@ export default function Contact() {
       toast({
         title: "Message sent!",
         description: "We'll be in touch with you shortly.",
-        icon: <CheckCircle2 className="w-5 h-5 text-primary" />,
       });
       form.reset();
     }, 1000);
