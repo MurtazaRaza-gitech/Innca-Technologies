@@ -1,12 +1,8 @@
 {
-  "outputDirectory": "dist/public",
   "rewrites": [
     {
       "source": "/((?!assets|favicon).*)",
       "destination": "/index.html"
     }
-  ],
-  "env": {
-    "BASE_PATH": "/"
-  }
+  ]
 }
